@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Button } from '@/components/ui/button';
 import { Menu, X } from 'lucide-react';
+import { Link } from 'react-router-dom';
 
 const Navigation = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -16,10 +17,10 @@ const Navigation = () => {
   }, []);
 
   const navItems = [
-    { label: 'Services', href: '#services' },
-    { label: 'Tech Stack', href: '#tech' },
-    { label: 'Process', href: '#process' },
-    { label: 'About', href: '#about' }
+    { label: 'Services', href: '/services', isRoute: true },
+    { label: 'Tech Stack', href: '#tech', isRoute: false },
+    { label: 'Process', href: '#process', isRoute: false },
+    { label: 'About', href: '#about', isRoute: false }
   ];
 
   return (
@@ -29,23 +30,33 @@ const Navigation = () => {
       <div className="container mx-auto px-6 py-4">
         <div className="flex items-center justify-between">
           {/* Logo */}
-          <div className="flex items-center gap-2">
+          <Link to="/" className="flex items-center gap-2">
             <div className="w-10 h-10 rounded-lg bg-gradient-to-br from-primary to-accent flex items-center justify-center">
               <span className="text-background font-bold text-xl">D</span>
             </div>
             <span className="font-bold text-xl">DevStudio</span>
-          </div>
+          </Link>
 
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center gap-8">
             {navItems.map((item) => (
-              <a
-                key={item.label}
-                href={item.href}
-                className="text-foreground/80 hover:text-primary transition-colors"
-              >
-                {item.label}
-              </a>
+              item.isRoute ? (
+                <Link
+                  key={item.label}
+                  to={item.href}
+                  className="text-foreground/80 hover:text-primary transition-colors"
+                >
+                  {item.label}
+                </Link>
+              ) : (
+                <a
+                  key={item.label}
+                  href={item.href}
+                  className="text-foreground/80 hover:text-primary transition-colors"
+                >
+                  {item.label}
+                </a>
+              )
             ))}
           </div>
 
@@ -69,14 +80,25 @@ const Navigation = () => {
         {isMobileMenuOpen && (
           <div className="md:hidden mt-4 py-4 border-t border-border/20">
             {navItems.map((item) => (
-              <a
-                key={item.label}
-                href={item.href}
-                className="block py-2 text-foreground/80 hover:text-primary transition-colors"
-                onClick={() => setIsMobileMenuOpen(false)}
-              >
-                {item.label}
-              </a>
+              item.isRoute ? (
+                <Link
+                  key={item.label}
+                  to={item.href}
+                  className="block py-2 text-foreground/80 hover:text-primary transition-colors"
+                  onClick={() => setIsMobileMenuOpen(false)}
+                >
+                  {item.label}
+                </Link>
+              ) : (
+                <a
+                  key={item.label}
+                  href={item.href}
+                  className="block py-2 text-foreground/80 hover:text-primary transition-colors"
+                  onClick={() => setIsMobileMenuOpen(false)}
+                >
+                  {item.label}
+                </a>
+              )
             ))}
             <Button className="w-full mt-4 bg-primary hover:bg-primary/90 text-primary-foreground">
               Start Project

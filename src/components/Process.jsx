@@ -1,35 +1,37 @@
 import React from 'react';
 import { Search, Palette, Code, Rocket } from 'lucide-react';
+import { useTranslation } from 'react-i18next';
 
 const Process = () => {
+  const { t } = useTranslation();
   const steps = [
     {
       number: '01',
       icon: Search,
-      title: 'Discovery & Strategy',
-      description: 'We dive deep into your vision, market, and user needs to create a technical roadmap',
-      duration: 'Week 1-2'
+      title: t('process.step1_title'),
+      description: t('process.step1_desc'),
+      duration: t('process.step1_duration')
     },
     {
       number: '02',
       icon: Palette,
-      title: 'Design & Architecture',
-      description: 'User-centered design paired with robust technical architecture planning',
-      duration: 'Week 2-3'
+      title: t('process.step2_title'),
+      description: t('process.step2_desc'),
+      duration: t('process.step2_duration')
     },
     {
       number: '03',
       icon: Code,
-      title: 'Development & Testing',
-      description: 'Agile development with continuous testing and weekly progress reviews',
-      duration: 'Week 3-7'
+      title: t('process.step3_title'),
+      description: t('process.step3_desc'),
+      duration: t('process.step3_duration')
     },
     {
       number: '04',
       icon: Rocket,
-      title: 'Launch & Support',
-      description: 'Smooth deployment with ongoing maintenance and scaling support',
-      duration: 'Week 8+'
+      title: t('process.step4_title'),
+      description: t('process.step4_desc'),
+      duration: t('process.step4_duration')
     }
   ];
 
@@ -38,10 +40,10 @@ const Process = () => {
       <div className="container mx-auto">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold mb-4">
-            How We <span className="gradient-text">Work</span>
+            {t('process.title')}
           </h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            A proven process that delivers results on time and on budget
+            {t('process.subtitle')}
           </p>
         </div>
 
@@ -84,9 +86,9 @@ const Process = () => {
         {/* Process benefits */}
         <div className="mt-16 grid md:grid-cols-3 gap-6 max-w-4xl mx-auto">
           {[
-            { label: 'Weekly Updates', value: 'Every Friday' },
-            { label: 'Direct Access', value: 'To Your Team' },
-            { label: 'Time to MVP', value: '6-8 Weeks' }
+            { label: t('process.stat1_label'), value: t('process.stat1_value') },
+            { label: t('process.stat2_label'), value: t('process.stat2_value') },
+            { label: t('process.stat3_label'), value: t('process.stat3_value') }
           ].map((stat, index) => (
             <div key={index} className="text-center">
               <div className="text-2xl font-bold gradient-text mb-1">{stat.value}</div>

@@ -103,7 +103,7 @@ const ServicesPage = () => {
         <div className="container mx-auto">
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-bold mb-4">
-              Why Choose <span className="gradient-text">DevStudio</span>
+              Why Choose <span className="gradient-text">PoMi Apps</span>
             </h2>
             <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
               We combine technical expertise with business understanding to deliver exceptional results

@@ -1,24 +1,26 @@
 import React from 'react';
 import { Smartphone, Server, Rocket } from 'lucide-react';
+import { useTranslation } from 'react-i18next';
 
 const ValueProposition = () => {
+  const { t } = useTranslation();
   const features = [
     {
       icon: Smartphone,
-      title: 'Cross-Platform Excellence',
-      description: 'Flutter development that delivers native performance across iOS, Android, and web platforms from a single codebase',
+      title: t('valueProposition.feature1_title'),
+      description: t('valueProposition.feature1_desc'),
       gradient: 'from-primary to-accent'
     },
     {
       icon: Server,
-      title: 'Backend Powerhouse',
-      description: 'Laravel expertise for secure, scalable APIs and web applications with elegant architecture and rapid development',
+      title: t('valueProposition.feature2_title'),
+      description: t('valueProposition.feature2_desc'),
       gradient: 'from-accent to-primary'
     },
     {
       icon: Rocket,
-      title: 'Startup-Ready Speed',
-      description: 'We understand the urgency of launching. Our streamlined process gets your MVP to market 40% faster than traditional development',
+      title: t('valueProposition.feature3_title'),
+      description: t('valueProposition.feature3_desc'),
       gradient: 'from-primary via-accent to-primary'
     }
   ];
@@ -28,10 +30,10 @@ const ValueProposition = () => {
       <div className="container mx-auto">
         <div className="text-center mb-16 slide-up">
           <h2 className="text-4xl md:text-5xl font-bold mb-4">
-            Why Choose <span className="gradient-text">Our Studio?</span>
+            {t('valueProposition.title')}
           </h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            We combine technical excellence with business understanding to deliver solutions that drive growth
+            {t('valueProposition.subtitle')}
           </p>
         </div>
 

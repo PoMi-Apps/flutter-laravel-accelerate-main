@@ -1,31 +1,33 @@
 import React from 'react';
 import { Smartphone, Globe, Server, Zap } from 'lucide-react';
+import { useTranslation } from 'react-i18next';
 
 const Services = () => {
+  const { t } = useTranslation();
   const services = [
     {
       icon: Smartphone,
-      title: 'Mobile Applications',
-      description: 'Native-feeling apps for iOS and Android using Flutter\'s single codebase approach',
-      features: ['Cross-platform', 'Native performance', 'Offline support']
+      title: t('services.service1_title'),
+      description: t('services.service1_desc'),
+      features: [t('services.service1_feature1'), t('services.service1_feature2'), t('services.service1_feature3')]
     },
     {
       icon: Globe,
-      title: 'Web Applications',
-      description: 'Dynamic, responsive web apps with Laravel backends for maximum performance',
-      features: ['Responsive design', 'SEO optimized', 'Fast loading']
+      title: t('services.service2_title'),
+      description: t('services.service2_desc'),
+      features: [t('services.service2_feature1'), t('services.service2_feature2'), t('services.service2_feature3')]
     },
     {
       icon: Server,
-      title: 'API Development',
-      description: 'Secure, scalable APIs that power your applications and integrate with third-party services',
-      features: ['RESTful design', 'Authentication', 'Documentation']
+      title: t('services.service3_title'),
+      description: t('services.service3_desc'),
+      features: [t('services.service3_feature1'), t('services.service3_feature2'), t('services.service3_feature3')]
     },
     {
       icon: Zap,
-      title: 'MVP Development',
-      description: 'Rapid prototyping and validation to get your product to market quickly',
-      features: ['6-8 weeks', 'User testing', 'Iterative development']
+      title: t('services.service4_title'),
+      description: t('services.service4_desc'),
+      features: [t('services.service4_feature1'), t('services.service4_feature2'), t('services.service4_feature3')]
     }
   ];
 
@@ -34,10 +36,10 @@ const Services = () => {
       <div className="container mx-auto">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold mb-4">
-            What We <span className="gradient-text">Build</span>
+            {t('services.title')}
           </h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            From concept to deployment, we handle every aspect of your digital product
+            {t('services.subtitle')}
           </p>
         </div>
 

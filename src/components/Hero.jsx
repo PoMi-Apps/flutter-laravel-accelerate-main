@@ -2,8 +2,10 @@ import React from 'react';
 import { Button } from '@/components/ui/button';
 import { ArrowRight, Code2, Zap } from 'lucide-react';
 import heroBg from '@/assets/hero-bg.jpg';
+import { useTranslation } from 'react-i18next';
 
 const Hero = () => {
+  const { t } = useTranslation();
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
       {/* Background image */}
@@ -29,46 +31,44 @@ const Hero = () => {
           {/* Badge */}
           <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full glass-card mb-8">
             <Zap className="w-4 h-4 text-primary" />
-            <span className="text-sm text-foreground/80">40% Faster Development Time</span>
+            <span className="text-sm text-foreground/80">{t('hero.badge')}</span>
           </div>
 
           {/* Main headline */}
           <h1 className="text-5xl md:text-7xl font-bold mb-6">
-            We Build Digital Products{' '}
-            <span className="gradient-text">That Scale</span>
+            {t('hero.headline')}
           </h1>
 
           {/* Subheading */}
           <p className="text-xl md:text-2xl text-muted-foreground mb-10 max-w-3xl mx-auto">
-            Transform your ideas into powerful mobile and web applications using cutting-edge 
-            Flutter and Laravel technologies. From MVP to enterprise-grade solutions.
+            {t('hero.subheading')}
           </p>
 
           {/* CTAs */}
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button size="lg" className="hover-glow bg-primary hover:bg-primary/90 text-primary-foreground px-8 py-6 text-lg">
-              Start Your Project
+              {t('hero.ctaPrimary')}
               <ArrowRight className="ml-2 w-5 h-5" />
             </Button>
             <Button size="lg" variant="outline" className="border-border/50 hover:bg-muted/50 px-8 py-6 text-lg">
               <Code2 className="mr-2 w-5 h-5" />
-              View Our Tech Stack
+              {t('hero.ctaSecondary')}
             </Button>
           </div>
 
           {/* Stats */}
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-8 mt-20">
             <div className="glass-card rounded-lg p-6">
-              <div className="text-3xl font-bold gradient-text mb-2">50%</div>
-              <div className="text-sm text-muted-foreground">Faster Development</div>
+              <div className="text-3xl font-bold gradient-text mb-2">{t('hero.stat1_value')}</div>
+              <div className="text-sm text-muted-foreground">{t('hero.stat1_label')}</div>
             </div>
             <div className="glass-card rounded-lg p-6">
-              <div className="text-3xl font-bold gradient-text mb-2">100%</div>
-              <div className="text-sm text-muted-foreground">Code Ownership</div>
+              <div className="text-3xl font-bold gradient-text mb-2">{t('hero.stat2_value')}</div>
+              <div className="text-sm text-muted-foreground">{t('hero.stat2_label')}</div>
             </div>
             <div className="glass-card rounded-lg p-6">
-              <div className="text-3xl font-bold gradient-text mb-2">6-8</div>
-              <div className="text-sm text-muted-foreground">Weeks to MVP</div>
+              <div className="text-3xl font-bold gradient-text mb-2">{t('hero.stat3_value')}</div>
+              <div className="text-sm text-muted-foreground">{t('hero.stat3_label')}</div>
             </div>
           </div>
         </div>

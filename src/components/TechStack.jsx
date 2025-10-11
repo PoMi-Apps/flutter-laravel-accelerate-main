@@ -2,18 +2,20 @@ import React, { useState } from 'react';
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
 import { Card } from '@/components/ui/card';
 import { CheckCircle, Layers, Database, Cloud } from 'lucide-react';
+import { useTranslation } from 'react-i18next';
 
 const TechStack = () => {
+  const { t } = useTranslation();
   const [activeTab, setActiveTab] = useState('frontend');
 
   const technologies = {
     frontend: {
       icon: Layers,
-      title: 'Frontend & Mobile',
+      title: t('techStack.frontend_title'),
       items: [
-        'Flutter for cross-platform mobile apps',
-        'Modern web frameworks for responsive interfaces',
-        'Progressive Web App (PWA) development'
+        t('techStack.frontend_item1'),
+        t('techStack.frontend_item2'),
+        t('techStack.frontend_item3')
       ],
       code: `// Flutter Example
 class MyApp extends StatelessWidget {
@@ -31,12 +33,12 @@ class MyApp extends StatelessWidget {
     },
     backend: {
       icon: Database,
-      title: 'Backend & Infrastructure',
+      title: t('techStack.backend_title'),
       items: [
-        'Laravel PHP framework for robust APIs',
-        'RESTful API development and integration',
-        'Database design and optimization',
-        'Cloud deployment and scaling'
+        t('techStack.backend_item1'),
+        t('techStack.backend_item2'),
+        t('techStack.backend_item3'),
+        t('techStack.backend_item4')
       ],
       code: `// Laravel Example
 Route::middleware('auth:api')->group(function () {
@@ -53,10 +55,10 @@ Route::middleware('auth:api')->group(function () {
       <div className="container mx-auto">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold mb-4">
-            Our Core <span className="gradient-text">Technologies</span>
+            {t('techStack.title')}
           </h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            Battle-tested tech stack for maximum performance and developer productivity
+            {t('techStack.subtitle')}
           </p>
         </div>
 
@@ -64,11 +66,11 @@ Route::middleware('auth:api')->group(function () {
           <TabsList className="grid w-full grid-cols-2 mb-8">
             <TabsTrigger value="frontend" className="data-[state=active]:bg-primary data-[state=active]:text-primary-foreground">
               <Layers className="mr-2 w-4 h-4" />
-              Frontend & Mobile
+              {t('techStack.frontend_title')}
             </TabsTrigger>
             <TabsTrigger value="backend" className="data-[state=active]:bg-primary data-[state=active]:text-primary-foreground">
               <Database className="mr-2 w-4 h-4" />
-              Backend & Infrastructure
+              {t('techStack.backend_title')}
             </TabsTrigger>
           </TabsList>
 
@@ -105,11 +107,9 @@ Route::middleware('auth:api')->group(function () {
         {/* Why This Stack */}
         <div className="mt-16 text-center glass-card rounded-xl p-8 max-w-3xl mx-auto">
           <Cloud className="w-12 h-12 text-primary mx-auto mb-4" />
-          <h3 className="text-2xl font-bold mb-4">Why This Stack?</h3>
+          <h3 className="text-2xl font-bold mb-4">{t('techStack.why_title')}</h3>
           <p className="text-muted-foreground text-lg">
-            Flutter + Laravel combination reduces development time by{' '}
-            <span className="text-primary font-semibold">50%</span> while maintaining 
-            enterprise-level security and performance
+            {t('techStack.why_desc')}
           </p>
         </div>
       </div>

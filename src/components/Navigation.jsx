@@ -2,8 +2,10 @@ import React, { useState, useEffect } from 'react';
 import { Button } from '@/components/ui/button';
 import { Menu, X } from 'lucide-react';
 import { Link } from 'react-router-dom';
+import { useTranslation } from 'react-i18next';
 
 const Navigation = () => {
+  const { t, i18n } = useTranslation();
   const [isScrolled, setIsScrolled] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
@@ -17,10 +19,10 @@ const Navigation = () => {
   }, []);
 
   const navItems = [
-    { label: 'Services', href: '/services', isRoute: true },
-    { label: 'Tech Stack', href: '#tech', isRoute: false },
-    { label: 'Process', href: '#process', isRoute: false },
-    { label: 'About', href: '#about', isRoute: false }
+    { label: t('navigation.services'), href: '/services', isRoute: true },
+    { label: t('navigation.techStack'), href: '#tech', isRoute: false },
+    { label: t('navigation.process'), href: '#process', isRoute: false },
+    { label: t('navigation.about'), href: '#about', isRoute: false }
   ];
 
   return (
@@ -30,11 +32,15 @@ const Navigation = () => {
       <div className="container mx-auto px-6 py-4">
         <div className="flex items-center justify-between">
           {/* Logo */}
-          <Link to="/" className="flex items-center gap-2">
-            <div className="w-10 h-10 rounded-lg bg-gradient-to-br from-primary to-accent flex items-center justify-center">
-              <span className="text-background font-bold text-xl">D</span>
-            </div>
-            <span className="font-bold text-xl">DevStudio</span>
+          <Link to="/" className="flex items-center gap-3">
+            <img 
+              src="/logo.png" 
+              alt="PoMi Apps Logo" 
+              className="w-10 h-10 object-contain"
+            />
+            <span className="font-bold text-xl text-white opacity-90">
+              PoMi Apps
+            </span>
           </Link>
 
           {/* Desktop Navigation */}
@@ -61,9 +67,18 @@ const Navigation = () => {
           </div>
 
           {/* CTA Button */}
-          <div className="hidden md:block">
+          <div className="hidden md:flex items-center gap-4">
             <Button className="bg-primary hover:bg-primary/90 text-primary-foreground">
-              Start Project
+              {t('navigation.startProject')}
+            </Button>
+            <Button
+              variant="outline"
+              size="sm"
+              onClick={() => {
+                i18n.changeLanguage(i18n.language === 'en' ? 'cz' : 'en');
+              }}
+            >
+              {i18n.language === 'en' ? 'CZ' : 'EN'}
             </Button>
           </div>
 

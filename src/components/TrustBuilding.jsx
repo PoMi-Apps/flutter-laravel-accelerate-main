@@ -1,28 +1,30 @@
 import React from 'react';
 import { Shield, Code, TrendingUp, FileText } from 'lucide-react';
+import { useTranslation } from 'react-i18next';
 
 const TrustBuilding = () => {
+  const { t } = useTranslation();
   const trustFactors = [
     {
       icon: Code,
-      title: 'Technical Excellence',
-      description: 'Every line of code follows industry best practices with comprehensive testing and documentation',
-      metric: '100%',
-      metricLabel: 'Code Quality'
+      title: t('trustBuilding.factor1_title'),
+      description: t('trustBuilding.factor1_desc'),
+      metric: t('trustBuilding.factor1_metric'),
+      metricLabel: t('trustBuilding.factor1_label')
     },
     {
       icon: Shield,
-      title: 'Transparent Process',
-      description: 'Weekly progress updates, direct designer/developer access, and clear project milestones keep you informed every step',
-      metric: 'Weekly',
-      metricLabel: 'Updates'
+      title: t('trustBuilding.factor2_title'),
+      description: t('trustBuilding.factor2_desc'),
+      metric: t('trustBuilding.factor2_metric'),
+      metricLabel: t('trustBuilding.factor2_label')
     },
     {
       icon: TrendingUp,
-      title: 'Future-Proof Solutions',
-      description: 'We build scalable architectures that grow with your business, from startup MVP to enterprise platform',
-      metric: '3x',
-      metricLabel: 'Scalability'
+      title: t('trustBuilding.factor3_title'),
+      description: t('trustBuilding.factor3_desc'),
+      metric: t('trustBuilding.factor3_metric'),
+      metricLabel: t('trustBuilding.factor3_label')
     }
   ];
 
@@ -31,10 +33,10 @@ const TrustBuilding = () => {
       <div className="container mx-auto">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold mb-4">
-            Built for <span className="gradient-text">Growth</span>
+            {t('trustBuilding.title')}
           </h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            Even without established clients yet, we demonstrate our expertise through:
+            {t('trustBuilding.subtitle')}
           </p>
         </div>
 
@@ -66,7 +68,7 @@ const TrustBuilding = () => {
                 {/* Documentation link simulation */}
                 <div className="mt-6 flex items-center gap-2 text-primary text-sm group-hover:translate-x-1 transition-transform">
                   <FileText className="w-4 h-4" />
-                  <span>View documentation</span>
+                  <span>{t('trustBuilding.viewDocumentation')}</span>
                 </div>
               </div>
             </div>
@@ -75,7 +77,7 @@ const TrustBuilding = () => {
 
         {/* Additional trust badges */}
         <div className="mt-16 flex flex-wrap justify-center gap-8">
-          {['Best Practices', 'Clean Code', 'Agile Development', 'CI/CD Pipeline', 'Security First'].map((badge, index) => (
+          {[t('trustBuilding.badge1'), t('trustBuilding.badge2'), t('trustBuilding.badge3'), t('trustBuilding.badge4'), t('trustBuilding.badge5')].map((badge, index) => (
             <div
               key={index}
               className="px-6 py-3 glass-card rounded-full text-sm font-medium text-foreground/80 hover:text-primary transition-colors"

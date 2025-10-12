@@ -121,5 +121,55 @@
     "trust1": "Available for new projects",
     "trust2": "Response within 24 hours",
     "trust3": "Free consultation"
+  },
+  "servicesPage": {
+    "hero": {
+      "badge": "Our Services",
+      "title": "Turn Your Ideas Into",
+      "titleHighlight": "Digital Reality",
+      "subtitle": "We specialize in creating high-performance mobile and web applications using Flutter and Laravel, helping startups and businesses bring their vision to life.",
+      "ctaPrimary": "Start Your Project",
+      "ctaSecondary": "View Portfolio"
+    },
+    "whyChooseUs": {
+      "title": "Why Choose",
+      "titleHighlight": "PoMi Apps",
+      "subtitle": "We combine technical expertise with business understanding to deliver exceptional results",
+      "item1_title": "Fast Delivery",
+      "item1_desc": "Get your MVP in 6-8 weeks with our streamlined development process",
+      "item2_title": "Quality Assured",
+      "item2_desc": "Rigorous testing and code reviews ensure reliable, maintainable applications",
+      "item3_title": "Expert Team",
+      "item3_desc": "Experienced developers specializing in Flutter and Laravel technologies",
+      "item4_title": "Scalable Solutions",
+      "item4_desc": "Built to grow with your business using modern, scalable architectures"
+    },
+    "process": {
+      "title": "Our",
+      "titleHighlight": "Process",
+      "subtitle": "A proven methodology that ensures successful project delivery every time",
+      "step1_title": "Discovery & Planning",
+      "step1_desc": "We start by understanding your business goals, target audience, and technical requirements.",
+      "step1_duration": "1-2 weeks",
+      "step1_deliverables": ["Requirements document", "Technical specification", "Project timeline"],
+      "step2_title": "Design & Prototyping",
+      "step2_desc": "Create wireframes, mockups, and interactive prototypes to visualize your product.",
+      "step2_duration": "2-3 weeks",
+      "step2_deliverables": ["UI/UX designs", "Interactive prototype", "Design system"],
+      "step3_title": "Development",
+      "step3_desc": "Build your application using modern technologies and best practices.",
+      "step3_duration": "4-8 weeks",
+      "step3_deliverables": ["Working application", "Source code", "Documentation"],
+      "step4_title": "Testing & Launch",
+      "step4_desc": "Comprehensive testing followed by deployment and post-launch support.",
+      "step4_duration": "1-2 weeks",
+      "step4_deliverables": ["Testing reports", "Deployed application", "Support documentation"],
+      "deliverablesLabel": "Deliverables:"
+    },
+    "technologies": {
+      "title": "Technologies We",
+      "titleHighlight": "Master",
+      "subtitle": "We use cutting-edge technologies to build scalable, maintainable applications"
+    }
   }
 }

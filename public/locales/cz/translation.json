@@ -121,5 +121,55 @@
     "trust1": "K dispozici pro nové projekty",
     "trust2": "Odpověď do 24 hodin",
     "trust3": "Bezplatná konzultace"
+  },
+  "servicesPage": {
+    "hero": {
+      "badge": "Naše služby",
+      "title": "Přeměňte své nápady v",
+      "titleHighlight": "digitální realitu",
+      "subtitle": "Specializujeme se na tvorbu vysoce výkonných mobilních a webových aplikací pomocí Flutteru a Laravelu, pomáháme startupům a firmám uvést jejich vizi do života.",
+      "ctaPrimary": "Začněte svůj projekt",
+      "ctaSecondary": "Zobrazit portfolio"
+    },
+    "whyChooseUs": {
+      "title": "Proč si vybrat",
+      "titleHighlight": "PoMi Apps",
+      "subtitle": "Kombinujeme technickou odbornost s obchodním porozuměním, abychom dodávali výjimečné výsledky",
+      "item1_title": "Rychlé dodání",
+      "item1_desc": "Získejte své MVP za 6-8 týdnů díky našemu zjednodušenému vývojovému procesu",
+      "item2_title": "Zajištěná kvalita",
+      "item2_desc": "Důkladné testování a revize kódu zajišťují spolehlivé a udržovatelné aplikace",
+      "item3_title": "Expertní tým",
+      "item3_desc": "Zkušení vývojáři specializující se na technologie Flutter a Laravel",
+      "item4_title": "Škálovatelná řešení",
+      "item4_desc": "Postaveno tak, aby rostlo s vaším podnikáním pomocí moderních škálovatelných architektur"
+    },
+    "process": {
+      "title": "Náš",
+      "titleHighlight": "proces",
+      "subtitle": "Osvědčená metodologie, která zajišťuje úspěšné dokončení projektu pokaždé",
+      "step1_title": "Objevování a plánování",
+      "step1_desc": "Začínáme pochopením vašich obchodních cílů, cílové skupiny a technických požadavků.",
+      "step1_duration": "1-2 týdny",
+      "step1_deliverables": ["Dokument s požadavky", "Technická specifikace", "Časový harmonogram projektu"],
+      "step2_title": "Design a prototypování",
+      "step2_desc": "Vytváříme wireframy, makety a interaktivní prototypy pro vizualizaci vašeho produktu.",
+      "step2_duration": "2-3 týdny",
+      "step2_deliverables": ["UI/UX designy", "Interaktivní prototyp", "Design systém"],
+      "step3_title": "Vývoj",
+      "step3_desc": "Stavíme vaši aplikaci pomocí moderních technologií a osvědčených postupů.",
+      "step3_duration": "4-8 týdnů",
+      "step3_deliverables": ["Fungující aplikace", "Zdrojový kód", "Dokumentace"],
+      "step4_title": "Testování a spuštění",
+      "step4_desc": "Komplexní testování následované nasazením a poprodejní podporou.",
+      "step4_duration": "1-2 týdny",
+      "step4_deliverables": ["Testovací zprávy", "Nasazená aplikace", "Dokumentace podpory"],
+      "deliverablesLabel": "Výstupy:"
+    },
+    "technologies": {
+      "title": "Technologie, které",
+      "titleHighlight": "ovládáme",
+      "subtitle": "Používáme špičkové technologie k tvorbě škálovatelných a udržovatelných aplikací"
+    }
   }
 }

@@ -22,7 +22,7 @@ const Navigation = () => {
     { label: t('navigation.services'), href: '/services', isRoute: true },
     { label: t('navigation.techStack'), href: '/technologies', isRoute: true },
     { label: t('navigation.process'), href: '/process', isRoute: true },
-    { label: t('navigation.about'), href: '#about', isRoute: false }
+    { label: t('navigation.about'), href: '/about', isRoute: true }
   ];
 
   return (

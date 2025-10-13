@@ -24,7 +24,7 @@ import {
   Code2,
   GitBranch,
   Shield,
-  Zap
+  Zap,
 } from "lucide-react";
 import { useTranslation } from "react-i18next";
 
@@ -38,11 +38,27 @@ const TechnologiesPage = () => {
       title: "Mobile Development",
       description: "Cross-platform mobile applications with native performance",
       technologies: [
-        { name: "Flutter", level: "Expert", description: "Dart-based UI framework for iOS and Android" },
-        { name: "Dart", level: "Expert", description: "Programming language for Flutter development" },
-        { name: "Firebase", level: "Advanced", description: "Backend-as-a-Service for mobile apps" },
-        { name: "SQLite", level: "Advanced", description: "Local database for offline functionality" }
-      ]
+        {
+          name: "Flutter",
+          level: "Expert",
+          description: "Dart-based UI framework for iOS and Android",
+        },
+        {
+          name: "Dart",
+          level: "Expert",
+          description: "Programming language for Flutter development",
+        },
+        {
+          name: "Firebase",
+          level: "Advanced",
+          description: "Backend-as-a-Service for mobile apps",
+        },
+        {
+          name: "SQLite",
+          level: "Advanced",
+          description: "Local database for offline functionality",
+        },
+      ],
     },
     {
       id: "frontend",
@@ -50,14 +66,42 @@ const TechnologiesPage = () => {
       title: "Frontend Development",
       description: "Modern web applications with responsive design",
       technologies: [
-        { name: "React", level: "Expert", description: "Component-based UI library for web applications" },
-        { name: "Vue.js", level: "Advanced", description: "Progressive JavaScript framework" },
-        { name: "JavaScript", level: "Expert", description: "Core programming language for web development" },
-        { name: "TypeScript", level: "Advanced", description: "Typed superset of JavaScript" },
-        { name: "HTML5", level: "Expert", description: "Modern markup language for web content" },
-        { name: "CSS3", level: "Expert", description: "Styling language with modern features" },
-        { name: "Tailwind CSS", level: "Expert", description: "Utility-first CSS framework" }
-      ]
+        {
+          name: "React",
+          level: "Expert",
+          description: "Component-based UI library for web applications",
+        },
+        {
+          name: "Vue.js",
+          level: "Advanced",
+          description: "Progressive JavaScript framework",
+        },
+        {
+          name: "JavaScript",
+          level: "Expert",
+          description: "Core programming language for web development",
+        },
+        {
+          name: "TypeScript",
+          level: "Advanced",
+          description: "Typed superset of JavaScript",
+        },
+        {
+          name: "HTML5",
+          level: "Expert",
+          description: "Modern markup language for web content",
+        },
+        {
+          name: "CSS3",
+          level: "Expert",
+          description: "Styling language with modern features",
+        },
+        {
+          name: "Tailwind CSS",
+          level: "Expert",
+          description: "Utility-first CSS framework",
+        },
+      ],
     },
     {
       id: "backend",
@@ -65,13 +109,37 @@ const TechnologiesPage = () => {
       title: "Backend Development",
       description: "Scalable server-side applications and APIs",
       technologies: [
-        { name: "Laravel", level: "Expert", description: "PHP web framework for rapid development" },
-        { name: "PHP", level: "Expert", description: "Server-side scripting language" },
-        { name: "Node.js", level: "Advanced", description: "JavaScript runtime for server-side development" },
-        { name: "Express.js", level: "Advanced", description: "Web framework for Node.js" },
-        { name: "REST APIs", level: "Expert", description: "Architectural style for web services" },
-        { name: "GraphQL", level: "Intermediate", description: "Query language for APIs" }
-      ]
+        {
+          name: "Laravel",
+          level: "Expert",
+          description: "PHP web framework for rapid development",
+        },
+        {
+          name: "PHP",
+          level: "Expert",
+          description: "Server-side scripting language",
+        },
+        {
+          name: "Node.js",
+          level: "Advanced",
+          description: "JavaScript runtime for server-side development",
+        },
+        {
+          name: "Express.js",
+          level: "Advanced",
+          description: "Web framework for Node.js",
+        },
+        {
+          name: "REST APIs",
+          level: "Expert",
+          description: "Architectural style for web services",
+        },
+        {
+          name: "GraphQL",
+          level: "Intermediate",
+          description: "Query language for APIs",
+        },
+      ],
     },
     {
       id: "database",
@@ -79,12 +147,32 @@ const TechnologiesPage = () => {
       title: "Database & Storage",
       description: "Reliable data storage and management solutions",
       technologies: [
-        { name: "MySQL", level: "Expert", description: "Popular relational database management system" },
-        { name: "PostgreSQL", level: "Advanced", description: "Advanced open-source relational database" },
-        { name: "MongoDB", level: "Advanced", description: "NoSQL document database" },
-        { name: "Redis", level: "Intermediate", description: "In-memory data structure store" },
-        { name: "Firebase Firestore", level: "Advanced", description: "NoSQL cloud database" }
-      ]
+        {
+          name: "MySQL",
+          level: "Expert",
+          description: "Popular relational database management system",
+        },
+        {
+          name: "PostgreSQL",
+          level: "Advanced",
+          description: "Advanced open-source relational database",
+        },
+        {
+          name: "MongoDB",
+          level: "Advanced",
+          description: "NoSQL document database",
+        },
+        {
+          name: "Redis",
+          level: "Intermediate",
+          description: "In-memory data structure store",
+        },
+        {
+          name: "Firebase Firestore",
+          level: "Advanced",
+          description: "NoSQL cloud database",
+        },
+      ],
     },
     {
       id: "devops",
@@ -92,13 +180,33 @@ const TechnologiesPage = () => {
       title: "DevOps & Deployment",
       description: "Streamlined development and deployment processes",
       technologies: [
-        { name: "Docker", level: "Advanced", description: "Containerization platform" },
-        { name: "AWS", level: "Advanced", description: "Amazon Web Services cloud platform" },
+        {
+          name: "Docker",
+          level: "Advanced",
+          description: "Containerization platform",
+        },
+        {
+          name: "AWS",
+          level: "Advanced",
+          description: "Amazon Web Services cloud platform",
+        },
         { name: "Git", level: "Expert", description: "Version control system" },
-        { name: "GitHub Actions", level: "Advanced", description: "CI/CD platform" },
-        { name: "Nginx", level: "Advanced", description: "Web server and reverse proxy" },
-        { name: "Linux", level: "Advanced", description: "Open-source operating system" }
-      ]
+        {
+          name: "GitHub Actions",
+          level: "Advanced",
+          description: "CI/CD platform",
+        },
+        {
+          name: "Nginx",
+          level: "Advanced",
+          description: "Web server and reverse proxy",
+        },
+        {
+          name: "Linux",
+          level: "Advanced",
+          description: "Open-source operating system",
+        },
+      ],
     },
     {
       id: "design",
@@ -106,44 +214,72 @@ const TechnologiesPage = () => {
       title: "Design & Prototyping",
       description: "User-centered design and prototyping tools",
       technologies: [
-        { name: "Figma", level: "Expert", description: "Collaborative design and prototyping tool" },
-        { name: "Adobe XD", level: "Advanced", description: "Design and prototyping software" },
-        { name: "Sketch", level: "Intermediate", description: "Digital design toolkit" },
-        { name: "InVision", level: "Intermediate", description: "Digital product design platform" },
-        { name: "Principle", level: "Intermediate", description: "Animation and interaction design tool" }
-      ]
-    }
+        {
+          name: "Figma",
+          level: "Expert",
+          description: "Collaborative design and prototyping tool",
+        },
+        {
+          name: "Adobe XD",
+          level: "Advanced",
+          description: "Design and prototyping software",
+        },
+        {
+          name: "Sketch",
+          level: "Intermediate",
+          description: "Digital design toolkit",
+        },
+        {
+          name: "InVision",
+          level: "Intermediate",
+          description: "Digital product design platform",
+        },
+        {
+          name: "Principle",
+          level: "Intermediate",
+          description: "Animation and interaction design tool",
+        },
+      ],
+    },
   ];
 
   const whyChooseOurTech = [
     {
       icon: Zap,
       title: "Performance Optimized",
-      description: "Every technology is chosen for maximum performance and scalability"
+      description:
+        "Every technology is chosen for maximum performance and scalability",
     },
     {
       icon: Shield,
       title: "Security First",
-      description: "Built-in security features and best practices for data protection"
+      description:
+        "Built-in security features and best practices for data protection",
     },
     {
       icon: Layers,
       title: "Future-Proof",
-      description: "Technologies that evolve and scale with your business needs"
+      description:
+        "Technologies that evolve and scale with your business needs",
     },
     {
       icon: GitBranch,
       title: "Developer Friendly",
-      description: "Tools and frameworks that enhance productivity and code quality"
-    }
+      description:
+        "Tools and frameworks that enhance productivity and code quality",
+    },
   ];
 
   const getLevelColor = (level) => {
     switch (level) {
-      case "Expert": return "bg-green-100 text-green-800 border-green-200";
-      case "Advanced": return "bg-blue-100 text-blue-800 border-blue-200";
-      case "Intermediate": return "bg-yellow-100 text-yellow-800 border-yellow-200";
-      default: return "bg-gray-100 text-gray-800 border-gray-200";
+      case "Expert":
+        return "bg-green-100 text-green-800 border-green-200";
+      case "Advanced":
+        return "bg-blue-100 text-blue-800 border-blue-200";
+      case "Intermediate":
+        return "bg-yellow-100 text-yellow-800 border-yellow-200";
+      default:
+        return "bg-gray-100 text-gray-800 border-gray-200";
     }
   };
 
@@ -214,7 +350,11 @@ const TechnologiesPage = () => {
               </TabsList>
 
               {technologyCategories.map((category) => (
-                <TabsContent key={category.id} value={category.id} className="space-y-6">
+                <TabsContent
+                  key={category.id}
+                  value={category.id}
+                  className="space-y-6"
+                >
                   <Card className="glass-card border-border/20 p-8">
                     <CardHeader className="pb-6">
                       <div className="flex items-center gap-4 mb-4">
@@ -222,7 +362,9 @@ const TechnologiesPage = () => {
                           <category.icon className="w-full h-full text-primary" />
                         </div>
                         <div>
-                          <CardTitle className="text-2xl">{category.title}</CardTitle>
+                          <CardTitle className="text-2xl">
+                            {category.title}
+                          </CardTitle>
                           <CardDescription className="text-base mt-2">
                             {category.description}
                           </CardDescription>
@@ -237,10 +379,14 @@ const TechnologiesPage = () => {
                             className="border rounded-lg p-4 hover:shadow-md transition-shadow"
                           >
                             <div className="flex items-center justify-between mb-2">
-                              <h4 className="font-semibold text-lg">{tech.name}</h4>
+                              <h4 className="font-semibold text-lg">
+                                {tech.name}
+                              </h4>
                               <Badge
                                 variant="outline"
-                                className={`text-xs ${getLevelColor(tech.level)}`}
+                                className={`text-xs ${getLevelColor(
+                                  tech.level
+                                )}`}
                               >
                                 {tech.level}
                               </Badge>
@@ -312,20 +458,23 @@ const TechnologiesPage = () => {
                 {
                   step: "01",
                   title: t("technologiesPage.process.step1_title"),
-                  description: t("technologiesPage.process.step1_desc")
+                  description: t("technologiesPage.process.step1_desc"),
                 },
                 {
                   step: "02",
                   title: t("technologiesPage.process.step2_title"),
-                  description: t("technologiesPage.process.step2_desc")
+                  description: t("technologiesPage.process.step2_desc"),
                 },
                 {
                   step: "03",
                   title: t("technologiesPage.process.step3_title"),
-                  description: t("technologiesPage.process.step3_desc")
-                }
+                  description: t("technologiesPage.process.step3_desc"),
+                },
               ].map((step, index) => (
-                <Card key={index} className="relative overflow-hidden hover-glow text-center">
+                <Card
+                  key={index}
+                  className="relative overflow-hidden hover-glow text-center"
+                >
                   <CardHeader>
                     <div className="text-6xl font-bold text-primary/20 leading-none mb-4">
                       {step.step}

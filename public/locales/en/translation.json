@@ -119,25 +119,72 @@
       "step1_title": "Discovery & Planning",
       "step1_desc": "We start by understanding your business goals, target audience, and technical requirements.",
       "step1_duration": "1-2 weeks",
-      "step1_deliverables": ["Requirements document", "Technical specification", "Project timeline"],
+      "step1_deliverables": [
+        "Requirements document",
+        "Technical specification",
+        "Project timeline"
+      ],
       "step2_title": "Design & Prototyping",
       "step2_desc": "Create wireframes, mockups, and interactive prototypes to visualize your product.",
       "step2_duration": "2-3 weeks",
-      "step2_deliverables": ["UI/UX designs", "Interactive prototype", "Design system"],
+      "step2_deliverables": [
+        "UI/UX designs",
+        "Interactive prototype",
+        "Design system"
+      ],
       "step3_title": "Development",
       "step3_desc": "Build your application using modern technologies and best practices.",
       "step3_duration": "4-8 weeks",
-      "step3_deliverables": ["Working application", "Source code", "Documentation"],
+      "step3_deliverables": [
+        "Working application",
+        "Source code",
+        "Documentation"
+      ],
       "step4_title": "Testing & Launch",
       "step4_desc": "Comprehensive testing followed by deployment and post-launch support.",
       "step4_duration": "1-2 weeks",
-      "step4_deliverables": ["Testing reports", "Deployed application", "Support documentation"],
+      "step4_deliverables": [
+        "Testing reports",
+        "Deployed application",
+        "Support documentation"
+      ],
       "deliverablesLabel": "Deliverables:"
     },
     "technologies": {
       "title": "Technologies We",
       "titleHighlight": "Master",
       "subtitle": "We use cutting-edge technologies to build scalable, maintainable applications"
+    }
+  },
+  "technologiesPage": {
+    "hero": {
+      "badge": "Our Technology Stack",
+      "title": "Technologies That",
+      "titleHighlight": "Power Innovation",
+      "subtitle": "We leverage cutting-edge technologies to build scalable, maintainable applications that drive business growth and deliver exceptional user experiences.",
+      "ctaPrimary": "Start Your Project",
+      "ctaSecondary": "View Our Process"
+    },
+    "categories": {
+      "title": "Technology",
+      "titleHighlight": "Expertise",
+      "subtitle": "Comprehensive technology stack covering mobile, web, backend, database, DevOps, and design tools"
+    },
+    "whyChoose": {
+      "title": "Why Our",
+      "titleHighlight": "Tech Stack",
+      "subtitle": "Carefully selected technologies that ensure performance, security, and future-proof solutions"
+    },
+    "process": {
+      "title": "Technology",
+      "titleHighlight": "Integration",
+      "subtitle": "How we select and implement the best technologies for your specific needs",
+      "step1_title": "Assessment",
+      "step1_desc": "We analyze your requirements and select optimal technologies for performance and scalability",
+      "step2_title": "Implementation",
+      "step2_desc": "Expert implementation with best practices and modern development methodologies",
+      "step3_title": "Optimization",
+      "step3_desc": "Continuous monitoring and optimization to ensure peak performance and reliability"
     }
   },
   "process": {
@@ -190,28 +237,52 @@
         "subtitle": "Understanding Your Vision",
         "duration": "1-2 weeks",
         "description": "We dive deep into your business goals, target audience, and technical requirements to create a comprehensive project roadmap.",
-        "deliverables": ["Requirements document", "Technical specification", "Project timeline", "User personas", "Competitive analysis"]
+        "deliverables": [
+          "Requirements document",
+          "Technical specification",
+          "Project timeline",
+          "User personas",
+          "Competitive analysis"
+        ]
       },
       "design": {
         "title": "Design & Prototyping",
         "subtitle": "Visualizing Your Solution",
         "duration": "2-3 weeks",
         "description": "Create wireframes, mockups, and interactive prototypes to visualize your product and validate design decisions early.",
-        "deliverables": ["UI/UX designs", "Interactive prototype", "Design system", "User journey maps", "Design specifications"]
+        "deliverables": [
+          "UI/UX designs",
+          "Interactive prototype",
+          "Design system",
+          "User journey maps",
+          "Design specifications"
+        ]
       },
       "development": {
         "title": "Development & Testing",
         "subtitle": "Building Your Solution",
         "duration": "4-8 weeks",
         "description": "Agile development with continuous testing, regular updates, and iterative improvements based on your feedback.",
-        "deliverables": ["Working application", "Source code", "Documentation", "Testing reports", "Deployment guide"]
+        "deliverables": [
+          "Working application",
+          "Source code",
+          "Documentation",
+          "Testing reports",
+          "Deployment guide"
+        ]
       },
       "launch": {
         "title": "Launch & Support",
         "subtitle": "Going Live Successfully",
         "duration": "1-2 weeks",
         "description": "Smooth deployment with comprehensive testing, monitoring setup, and post-launch support to ensure success.",
-        "deliverables": ["Live application", "Performance monitoring", "User training", "Maintenance guide", "Support documentation"]
+        "deliverables": [
+          "Live application",
+          "Performance monitoring",
+          "User training",
+          "Maintenance guide",
+          "Support documentation"
+        ]
       }
     },
     "features": {
@@ -246,17 +317,32 @@
       "sprint": {
         "title": "Sprint Planning",
         "duration": "2 weeks",
-        "activities": ["Sprint goal setting", "Task breakdown", "Capacity planning", "Risk assessment"]
+        "activities": [
+          "Sprint goal setting",
+          "Task breakdown",
+          "Capacity planning",
+          "Risk assessment"
+        ]
       },
       "review": {
         "title": "Sprint Review",
         "duration": "1 day",
-        "activities": ["Demo completed work", "Collect feedback", "Plan next steps", "Update backlog"]
+        "activities": [
+          "Demo completed work",
+          "Collect feedback",
+          "Plan next steps",
+          "Update backlog"
+        ]
       },
       "retrospective": {
         "title": "Sprint Retrospective",
         "duration": "1 day",
-        "activities": ["Process improvement", "Team learnings", "Action items", "Continuous improvement"]
+        "activities": [
+          "Process improvement",
+          "Team learnings",
+          "Action items",
+          "Continuous improvement"
+        ]
       }
     },
     "metrics": {
@@ -276,5 +362,78 @@
       "launch_activities": "Production deployment, monitoring setup, user acceptance testing, and handover documentation."
     },
     "deliverablesLabel": "Key Deliverables:"
+  },
+  "aboutPage": {
+    "hero": {
+      "badge": "About PoMi Apps",
+      "title": "Building Digital",
+      "titleHighlight": "Dreams",
+      "subtitle": "We're a passionate team of developers and designers dedicated to creating exceptional digital experiences that drive business growth and user satisfaction.",
+      "ctaPrimary": "Join Our Team",
+      "ctaSecondary": "View Our Work"
+    },
+    "stats": {
+      "title": "Our",
+      "titleHighlight": "Journey",
+      "subtitle": "Key milestones that define our growth and commitment to excellence",
+      "founded": "Founded",
+      "team": "Team Members",
+      "projects": "Projects Completed",
+      "countries": "Countries Served"
+    },
+    "story": {
+      "title": "Our",
+      "titleHighlight": "Story",
+      "paragraph1": "Founded in 2024, PoMi Apps emerged from a simple belief: great software should be accessible to everyone. We started as a small team with big dreams, focusing on Flutter and Laravel technologies to create solutions that matter.",
+      "paragraph2": "Our journey began when we realized that many businesses struggle with technology decisions and development processes. We set out to simplify this by offering transparent, high-quality development services that deliver real results.",
+      "paragraph3": "Today, we're proud to have helped numerous startups and businesses bring their digital visions to life. Our commitment to excellence, transparency, and customer success remains at the heart of everything we do.",
+      "vision": {
+        "title": "Our Vision",
+        "description": "To be the most trusted development partner for startups and businesses worldwide, delivering innovative solutions that drive growth and create lasting impact.",
+        "faster": "Faster Development",
+        "ownership": "Code Ownership"
+      }
+    },
+    "values": {
+      "title": "Our",
+      "titleHighlight": "Values",
+      "subtitle": "The principles that guide every decision we make and every project we deliver",
+      "passion": {
+        "title": "Passion",
+        "description": "We love what we do and bring enthusiasm to every project, ensuring exceptional results for our clients."
+      },
+      "excellence": {
+        "title": "Excellence",
+        "description": "We strive for perfection in every line of code and every design decision, never compromising on quality."
+      },
+      "collaboration": {
+        "title": "Collaboration",
+        "description": "We believe in transparent communication and working closely with our clients as true partners."
+      },
+      "innovation": {
+        "title": "Innovation",
+        "description": "We continuously explore new technologies and methodologies to deliver cutting-edge solutions."
+      }
+    },
+    "team": {
+      "title": "Meet Our",
+      "titleHighlight": "Team",
+      "subtitle": "The passionate individuals behind every successful project",
+      "founder": "Founder & CEO",
+      "founderBio": "Visionary leader with extensive experience in Flutter and Laravel development, passionate about creating innovative digital solutions.",
+      "developers": "Development Team",
+      "developersBio": "Skilled developers specializing in mobile and web technologies, committed to delivering high-quality, scalable applications."
+    },
+    "achievements": {
+      "title": "Our",
+      "titleHighlight": "Achievements",
+      "subtitle": "Milestones that mark our journey of growth and success",
+      "started": "Company Founded",
+      "startedDesc": "PoMi Apps officially launched with a mission to democratize high-quality software development.",
+      "firstProject": "First Major Project",
+      "firstProjectDesc": "Successfully delivered our first enterprise mobile application, setting the standard for future projects.",
+      "expansion": "Team Expansion",
+      "expansionDesc": "Grew our team and expanded our service offerings to better serve our growing client base."
+    }
   }
 }

@@ -90,38 +90,6 @@
     "service4_feature2": "User testing",
     "service4_feature3": "Iterative development"
   },
-  "process": {
-    "title": "How We Work",
-    "subtitle": "A proven process that delivers results on time and on budget",
-    "step1_title": "Discovery & Strategy",
-    "step1_desc": "We dive deep into your vision, market, and user needs to create a technical roadmap",
-    "step1_duration": "Week 1-2",
-    "step2_title": "Design & Architecture",
-    "step2_desc": "User-centered design paired with robust technical architecture planning",
-    "step2_duration": "Week 2-3",
-    "step3_title": "Development & Testing",
-    "step3_desc": "Agile development with continuous testing and weekly progress reviews",
-    "step3_duration": "Week 3-7",
-    "step4_title": "Launch & Support",
-    "step4_desc": "Smooth deployment with ongoing maintenance and scaling support",
-    "step4_duration": "Week 8+",
-    "stat1_label": "Weekly Updates",
-    "stat1_value": "Every Friday",
-    "stat2_label": "Direct Access",
-    "stat2_value": "To Your Team",
-    "stat3_label": "Time to MVP",
-    "stat3_value": "6-8 Weeks"
-  },
-  "cta": {
-    "title": "Ready to Build Something Amazing?",
-    "subtitle": "Let's turn your idea into a digital reality. Get a free technical consultation and project estimate.",
-    "ctaPrimary": "Schedule Free Consultation",
-    "ctaSecondary": "Get Project Estimate",
-    "ctaTertiary": "View Our Process",
-    "trust1": "Available for new projects",
-    "trust2": "Response within 24 hours",
-    "trust3": "Free consultation"
-  },
   "servicesPage": {
     "hero": {
       "badge": "Our Services",
@@ -170,6 +138,69 @@
       "title": "Technologies We",
       "titleHighlight": "Master",
       "subtitle": "We use cutting-edge technologies to build scalable, maintainable applications"
+    }
+  },
+  "process": {
+    "title": "How We Work",
+    "subtitle": "A proven process that delivers results on time and on budget",
+    "step1_title": "Discovery & Strategy",
+    "step1_desc": "We dive deep into your vision, market, and user needs to create a technical roadmap",
+    "step1_duration": "Week 1-2",
+    "step2_title": "Design & Architecture",
+    "step2_desc": "User-centered design paired with robust technical architecture planning",
+    "step2_duration": "Week 2-3",
+    "step3_title": "Development & Testing",
+    "step3_desc": "Agile development with continuous testing and weekly progress reviews",
+    "step3_duration": "Week 3-7",
+    "step4_title": "Launch & Support",
+    "step4_desc": "Smooth deployment with ongoing maintenance and scaling support",
+    "step4_duration": "Week 8+",
+    "stat1_label": "Weekly Updates",
+    "stat1_value": "Every Friday",
+    "stat2_label": "Direct Access",
+    "stat2_value": "To Your Team",
+    "stat3_label": "Time to MVP",
+    "stat3_value": "6-8 Weeks"
+  },
+  "cta": {
+    "title": "Ready to Build Something Amazing?",
+    "subtitle": "Let's turn your idea into a digital reality. Get a free technical consultation and project estimate.",
+    "ctaPrimary": "Schedule Free Consultation",
+    "ctaSecondary": "Get Project Estimate",
+    "ctaTertiary": "View Our Process",
+    "trust1": "Available for new projects",
+    "trust2": "Response within 24 hours",
+    "trust3": "Free consultation"
+  },
+  "technologiesPage": {
+    "hero": {
+      "badge": "Our Technology Stack",
+      "title": "Technologies That",
+      "titleHighlight": "Power Innovation",
+      "subtitle": "We leverage cutting-edge technologies to build scalable, maintainable applications that drive business growth and deliver exceptional user experiences.",
+      "ctaPrimary": "Start Your Project",
+      "ctaSecondary": "View Our Process"
+    },
+    "categories": {
+      "title": "Technology",
+      "titleHighlight": "Expertise",
+      "subtitle": "Comprehensive technology stack covering mobile, web, backend, database, DevOps, and design tools"
+    },
+    "whyChoose": {
+      "title": "Why Our",
+      "titleHighlight": "Tech Stack",
+      "subtitle": "Carefully selected technologies that ensure performance, security, and future-proof solutions"
+    },
+    "process": {
+      "title": "Technology",
+      "titleHighlight": "Integration",
+      "subtitle": "How we select and implement the best technologies for your specific needs",
+      "step1_title": "Assessment",
+      "step1_desc": "We analyze your requirements and select optimal technologies for performance and scalability",
+      "step2_title": "Implementation",
+      "step2_desc": "Expert implementation with best practices and modern development methodologies",
+      "step3_title": "Optimization",
+      "step3_desc": "Continuous monitoring and optimization to ensure peak performance and reliability"
     }
   }
 }

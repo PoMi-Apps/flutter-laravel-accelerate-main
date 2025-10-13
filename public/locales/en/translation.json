@@ -172,35 +172,109 @@
     "trust2": "Response within 24 hours",
     "trust3": "Free consultation"
   },
-  "technologiesPage": {
+  "processPage": {
     "hero": {
-      "badge": "Our Technology Stack",
-      "title": "Technologies That",
-      "titleHighlight": "Power Innovation",
-      "subtitle": "We leverage cutting-edge technologies to build scalable, maintainable applications that drive business growth and deliver exceptional user experiences.",
+      "badge": "Our Development Process",
+      "title": "How We Build",
+      "titleHighlight": "Exceptional Products",
+      "subtitle": "A proven, transparent process that delivers high-quality results on time and within budget, keeping you involved every step of the way.",
       "ctaPrimary": "Start Your Project",
-      "ctaSecondary": "View Our Process"
+      "ctaSecondary": "View Our Work"
     },
-    "categories": {
-      "title": "Technology",
-      "titleHighlight": "Expertise",
-      "subtitle": "Comprehensive technology stack covering mobile, web, backend, database, DevOps, and design tools"
+    "steps": {
+      "title": "Our Development",
+      "titleHighlight": "Process",
+      "subtitle": "Four comprehensive phases that ensure successful project delivery from concept to launch",
+      "discovery": {
+        "title": "Discovery & Strategy",
+        "subtitle": "Understanding Your Vision",
+        "duration": "1-2 weeks",
+        "description": "We dive deep into your business goals, target audience, and technical requirements to create a comprehensive project roadmap.",
+        "deliverables": ["Requirements document", "Technical specification", "Project timeline", "User personas", "Competitive analysis"]
+      },
+      "design": {
+        "title": "Design & Prototyping",
+        "subtitle": "Visualizing Your Solution",
+        "duration": "2-3 weeks",
+        "description": "Create wireframes, mockups, and interactive prototypes to visualize your product and validate design decisions early.",
+        "deliverables": ["UI/UX designs", "Interactive prototype", "Design system", "User journey maps", "Design specifications"]
+      },
+      "development": {
+        "title": "Development & Testing",
+        "subtitle": "Building Your Solution",
+        "duration": "4-8 weeks",
+        "description": "Agile development with continuous testing, regular updates, and iterative improvements based on your feedback.",
+        "deliverables": ["Working application", "Source code", "Documentation", "Testing reports", "Deployment guide"]
+      },
+      "launch": {
+        "title": "Launch & Support",
+        "subtitle": "Going Live Successfully",
+        "duration": "1-2 weeks",
+        "description": "Smooth deployment with comprehensive testing, monitoring setup, and post-launch support to ensure success.",
+        "deliverables": ["Live application", "Performance monitoring", "User training", "Maintenance guide", "Support documentation"]
+      }
     },
-    "whyChoose": {
-      "title": "Why Our",
-      "titleHighlight": "Tech Stack",
-      "subtitle": "Carefully selected technologies that ensure performance, security, and future-proof solutions"
+    "features": {
+      "title": "Process",
+      "titleHighlight": "Advantages",
+      "subtitle": "Why our structured approach leads to better outcomes for your project",
+      "accuracy": {
+        "title": "Pinpoint Accuracy",
+        "description": "Every requirement is thoroughly analyzed and documented to ensure we build exactly what you need.",
+        "metric": "99%"
+      },
+      "speed": {
+        "title": "Lightning Fast",
+        "description": "Streamlined processes and modern tools help us deliver projects 40% faster than traditional methods.",
+        "metric": "40%"
+      },
+      "collaboration": {
+        "title": "Team Collaboration",
+        "description": "Direct access to your development team with weekly updates and transparent communication throughout.",
+        "metric": "Weekly"
+      },
+      "quality": {
+        "title": "Quality Assured",
+        "description": "Rigorous testing and code reviews ensure reliable, maintainable applications that scale with your business.",
+        "metric": "100%"
+      }
     },
-    "process": {
-      "title": "Technology",
-      "titleHighlight": "Integration",
-      "subtitle": "How we select and implement the best technologies for your specific needs",
-      "step1_title": "Assessment",
-      "step1_desc": "We analyze your requirements and select optimal technologies for performance and scalability",
-      "step2_title": "Implementation",
-      "step2_desc": "Expert implementation with best practices and modern development methodologies",
-      "step3_title": "Optimization",
-      "step3_desc": "Continuous monitoring and optimization to ensure peak performance and reliability"
-    }
+    "agile": {
+      "title": "Agile Development",
+      "titleHighlight": "Methodology",
+      "subtitle": "We use agile practices to deliver value quickly and adapt to changing requirements",
+      "sprint": {
+        "title": "Sprint Planning",
+        "duration": "2 weeks",
+        "activities": ["Sprint goal setting", "Task breakdown", "Capacity planning", "Risk assessment"]
+      },
+      "review": {
+        "title": "Sprint Review",
+        "duration": "1 day",
+        "activities": ["Demo completed work", "Collect feedback", "Plan next steps", "Update backlog"]
+      },
+      "retrospective": {
+        "title": "Sprint Retrospective",
+        "duration": "1 day",
+        "activities": ["Process improvement", "Team learnings", "Action items", "Continuous improvement"]
+      }
+    },
+    "metrics": {
+      "title": "Success",
+      "titleHighlight": "Metrics",
+      "subtitle": "Measurable results that demonstrate the effectiveness of our process",
+      "delivery": { "label": "On-Time Delivery", "value": "95%" },
+      "satisfaction": { "label": "Client Satisfaction", "value": "98%" },
+      "budget": { "label": "Within Budget", "value": "92%" },
+      "timeline": { "label": "Faster Time to Market", "value": "40%" }
+    },
+    "stepDetails": {
+      "activities": "Key Activities:",
+      "discovery_activities": "Stakeholder interviews, market research, technical feasibility analysis, and requirement gathering sessions.",
+      "design_activities": "User experience research, information architecture planning, visual design creation, and usability testing.",
+      "development_activities": "Agile development sprints, continuous integration, automated testing, and performance optimization.",
+      "launch_activities": "Production deployment, monitoring setup, user acceptance testing, and handover documentation."
+    },
+    "deliverablesLabel": "Key Deliverables:"
   }
 }

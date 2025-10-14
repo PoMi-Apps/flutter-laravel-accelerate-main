@@ -72,29 +72,14 @@ const TechnologiesPage = () => {
           description: "Component-based UI library for web applications",
         },
         {
-          name: "Vue.js",
-          level: "Advanced",
-          description: "Progressive JavaScript framework",
-        },
-        {
           name: "JavaScript",
           level: "Expert",
           description: "Core programming language for web development",
         },
         {
-          name: "TypeScript",
-          level: "Advanced",
-          description: "Typed superset of JavaScript",
-        },
-        {
           name: "HTML5",
           level: "Expert",
           description: "Modern markup language for web content",
-        },
-        {
-          name: "CSS3",
-          level: "Expert",
-          description: "Styling language with modern features",
         },
         {
           name: "Tailwind CSS",
@@ -125,18 +110,13 @@ const TechnologiesPage = () => {
           description: "JavaScript runtime for server-side development",
         },
         {
-          name: "Express.js",
-          level: "Advanced",
-          description: "Web framework for Node.js",
-        },
-        {
           name: "REST APIs",
           level: "Expert",
           description: "Architectural style for web services",
         },
         {
           name: "GraphQL",
-          level: "Intermediate",
+          level: "Expert",
           description: "Query language for APIs",
         },
       ],
@@ -161,11 +141,6 @@ const TechnologiesPage = () => {
           name: "MongoDB",
           level: "Advanced",
           description: "NoSQL document database",
-        },
-        {
-          name: "Redis",
-          level: "Intermediate",
-          description: "In-memory data structure store",
         },
         {
           name: "Firebase Firestore",
@@ -223,21 +198,6 @@ const TechnologiesPage = () => {
           name: "Adobe XD",
           level: "Advanced",
           description: "Design and prototyping software",
-        },
-        {
-          name: "Sketch",
-          level: "Intermediate",
-          description: "Digital design toolkit",
-        },
-        {
-          name: "InVision",
-          level: "Intermediate",
-          description: "Digital product design platform",
-        },
-        {
-          name: "Principle",
-          level: "Intermediate",
-          description: "Animation and interaction design tool",
         },
       ],
     },

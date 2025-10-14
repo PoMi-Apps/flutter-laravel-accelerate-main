@@ -141,4 +141,263 @@ All colors MUST be HSL.
     font-family: var(--font-mono);
     font-size: 0.875rem;
   }
+
+  /* Custom Cursor Styles */
+  .custom-cursor {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 20px;
+    height: 20px;
+    background: var(--gradient-primary);
+    border-radius: 50%;
+    pointer-events: none;
+    z-index: 9999;
+    will-change: transform;
+    backface-visibility: hidden;
+    transform: translate3d(0, 0, 0);
+    transition: transform 0.15s cubic-bezier(0.25, 0.46, 0.45, 0.94), box-shadow 0.15s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+    box-shadow:
+      0 0 20px hsl(263 90% 51% / 0.5),
+      0 0 40px hsl(263 90% 51% / 0.3),
+      inset 0 0 10px hsl(0 0% 100% / 0.2);
+  }
+
+  .custom-cursor.hover {
+    transform: translate3d(0, 0, 0) scale(1.5);
+    box-shadow:
+      0 0 30px hsl(263 90% 51% / 0.8),
+      0 0 60px hsl(263 90% 51% / 0.5),
+      inset 0 0 15px hsl(0 0% 100% / 0.3);
+  }
+
+  .custom-cursor.click {
+    transform: translate3d(0, 0, 0) scale(0.8);
+    box-shadow:
+      0 0 15px hsl(263 90% 51% / 0.6),
+      0 0 30px hsl(263 90% 51% / 0.4);
+  }
+
+  .cursor-trail {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 8px;
+    height: 8px;
+    background: var(--gradient-secondary);
+    border-radius: 50%;
+    pointer-events: none;
+    z-index: 9998;
+    will-change: transform;
+    backface-visibility: hidden;
+    transform: translate3d(0, 0, 0);
+    animation: trailPulse 2s ease-in-out infinite;
+  }
+
+  .cursor-glow {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 40px;
+    height: 40px;
+    background: radial-gradient(circle, hsl(263 90% 51% / 0.2) 0%, hsl(263 90% 51% / 0.1) 50%, transparent 100%);
+    border-radius: 50%;
+    pointer-events: none;
+    z-index: 9997;
+    will-change: transform;
+    backface-visibility: hidden;
+    transform: translate3d(0, 0, 0);
+    transition: all 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  }
+
+  .cursor-glow.hover-glow {
+    width: 60px;
+    height: 60px;
+    background: radial-gradient(circle, hsl(263 90% 51% / 0.3) 0%, hsl(263 90% 51% / 0.15) 50%, transparent 100%);
+  }
+
+  @keyframes trailPulse {
+    0%, 100% {
+      opacity: 1;
+      transform: translate3d(0, 0, 0) scale(1);
+    }
+    50% {
+      opacity: 0.5;
+      transform: translate3d(0, 0, 0) scale(1.2);
+    }
+  }
+
+  /* Hide default cursor */
+  * {
+    cursor: none !important;
+  }
+
+  /* Enhanced touch device detection */
+  @media (hover: none) and (pointer: coarse) {
+    .custom-cursor,
+    .cursor-trail,
+    .cursor-glow {
+      display: none !important;
+    }
+
+    * {
+      cursor: auto !important;
+    }
+  }
+
+  @media (hover: none) and (pointer: fine) and (max-width: 768px) {
+    .custom-cursor,
+    .cursor-trail,
+    .cursor-glow {
+      display: none !important;
+    }
+
+    * {
+      cursor: auto !important;
+    }
+  }
+
+  @media (pointer: coarse) {
+    .custom-cursor,
+    .cursor-trail,
+    .cursor-glow {
+      display: none !important;
+    }
+
+    * {
+      cursor: auto !important;
+    }
+  }
+
+  /* Responsive cursor sizing */
+  @media (max-width: 480px) {
+    .custom-cursor {
+      width: 12px;
+      height: 12px;
+    }
+
+    .cursor-glow {
+      width: 24px;
+      height: 24px;
+    }
+
+    .cursor-glow.hover-glow {
+      width: 36px;
+      height: 36px;
+    }
+
+    .cursor-trail {
+      width: 6px;
+      height: 6px;
+    }
+  }
+
+  @media (min-width: 481px) and (max-width: 768px) {
+    .custom-cursor {
+      width: 16px;
+      height: 16px;
+    }
+
+    .cursor-glow {
+      width: 32px;
+      height: 32px;
+    }
+
+    .cursor-glow.hover-glow {
+      width: 48px;
+      height: 48px;
+    }
+
+    .cursor-trail {
+      width: 7px;
+      height: 7px;
+    }
+  }
+
+  @media (min-width: 769px) and (max-width: 1200px) {
+    .custom-cursor {
+      width: 18px;
+      height: 18px;
+    }
+
+    .cursor-glow {
+      width: 36px;
+      height: 36px;
+    }
+
+    .cursor-glow.hover-glow {
+      width: 54px;
+      height: 54px;
+    }
+
+    .cursor-trail {
+      width: 8px;
+      height: 8px;
+    }
+  }
+
+  @media (min-width: 1201px) {
+    .custom-cursor {
+      width: 20px;
+      height: 20px;
+    }
+
+    .cursor-glow {
+      width: 40px;
+      height: 40px;
+    }
+
+    .cursor-glow.hover-glow {
+      width: 60px;
+      height: 60px;
+    }
+
+    .cursor-trail {
+      width: 8px;
+      height: 8px;
+    }
+  }
+
+  /* High DPI display optimizations */
+  @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+    .custom-cursor,
+    .cursor-trail,
+    .cursor-glow {
+      transform: translate3d(0, 0, 0);
+      -webkit-transform: translate3d(0, 0, 0);
+    }
+  }
+
+  /* Reduced motion preferences */
+  @media (prefers-reduced-motion: reduce) {
+    .custom-cursor,
+    .cursor-trail,
+    .cursor-glow {
+      transition: none;
+      animation: none;
+    }
+
+    .custom-cursor.hover {
+      transform: translate3d(0, 0, 0) scale(1.2);
+    }
+
+    .custom-cursor.click {
+      transform: translate3d(0, 0, 0) scale(0.9);
+    }
+
+    .cursor-glow.hover-glow {
+      width: 50px;
+      height: 50px;
+    }
+  }
+
+  /* Performance optimizations for older devices */
+  @supports not (will-change: auto) {
+    .custom-cursor,
+    .cursor-trail,
+    .cursor-glow {
+      transform: translate(0, 0);
+      transition: transform 0.1s ease, box-shadow 0.1s ease;
+    }
+  }
 }

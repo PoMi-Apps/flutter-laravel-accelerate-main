@@ -35,169 +35,215 @@ const TechnologiesPage = () => {
     {
       id: "mobile",
       icon: Smartphone,
-      title: "Mobile Development",
-      description: "Cross-platform mobile applications with native performance",
+      title: t("techCategories.mobile.title"),
+      description: t("techCategories.mobile.description"),
       technologies: [
         {
-          name: "Flutter",
-          level: "Expert",
-          description: "Dart-based UI framework for iOS and Android",
+          name: t("techCategories.mobile.technologies.flutter.name"),
+          level: t("techCategories.mobile.technologies.flutter.level"),
+          description: t(
+            "techCategories.mobile.technologies.flutter.description"
+          ),
         },
         {
-          name: "Dart",
-          level: "Expert",
-          description: "Programming language for Flutter development",
+          name: t("techCategories.mobile.technologies.dart.name"),
+          level: t("techCategories.mobile.technologies.dart.level"),
+          description: t("techCategories.mobile.technologies.dart.description"),
         },
         {
-          name: "Firebase",
-          level: "Advanced",
-          description: "Backend-as-a-Service for mobile apps",
+          name: t("techCategories.mobile.technologies.firebase.name"),
+          level: t("techCategories.mobile.technologies.firebase.level"),
+          description: t(
+            "techCategories.mobile.technologies.firebase.description"
+          ),
         },
         {
-          name: "SQLite",
-          level: "Advanced",
-          description: "Local database for offline functionality",
+          name: t("techCategories.mobile.technologies.sqlite.name"),
+          level: t("techCategories.mobile.technologies.sqlite.level"),
+          description: t(
+            "techCategories.mobile.technologies.sqlite.description"
+          ),
         },
       ],
     },
     {
       id: "frontend",
       icon: Monitor,
-      title: "Frontend Development",
-      description: "Modern web applications with responsive design",
+      title: t("techCategories.frontend.title"),
+      description: t("techCategories.frontend.description"),
       technologies: [
         {
-          name: "React",
-          level: "Expert",
-          description: "Component-based UI library for web applications",
+          name: t("techCategories.frontend.technologies.react.name"),
+          level: t("techCategories.frontend.technologies.react.level"),
+          description: t(
+            "techCategories.frontend.technologies.react.description"
+          ),
         },
         {
-          name: "JavaScript",
-          level: "Expert",
-          description: "Core programming language for web development",
+          name: t("techCategories.frontend.technologies.javascript.name"),
+          level: t("techCategories.frontend.technologies.javascript.level"),
+          description: t(
+            "techCategories.frontend.technologies.javascript.description"
+          ),
         },
         {
-          name: "HTML5",
-          level: "Expert",
-          description: "Modern markup language for web content",
+          name: t("techCategories.frontend.technologies.html5.name"),
+          level: t("techCategories.frontend.technologies.html5.level"),
+          description: t(
+            "techCategories.frontend.technologies.html5.description"
+          ),
         },
         {
-          name: "Tailwind CSS",
-          level: "Expert",
-          description: "Utility-first CSS framework",
+          name: t("techCategories.frontend.technologies.tailwind.name"),
+          level: t("techCategories.frontend.technologies.tailwind.level"),
+          description: t(
+            "techCategories.frontend.technologies.tailwind.description"
+          ),
         },
       ],
     },
     {
       id: "backend",
       icon: Database,
-      title: "Backend Development",
-      description: "Scalable server-side applications and APIs",
+      title: t("techCategories.backend.title"),
+      description: t("techCategories.backend.description"),
       technologies: [
         {
-          name: "Laravel",
-          level: "Expert",
-          description: "PHP web framework for rapid development",
+          name: t("techCategories.backend.technologies.laravel.name"),
+          level: t("techCategories.backend.technologies.laravel.level"),
+          description: t(
+            "techCategories.backend.technologies.laravel.description"
+          ),
         },
         {
-          name: "PHP",
-          level: "Expert",
-          description: "Server-side scripting language",
+          name: t("techCategories.backend.technologies.php.name"),
+          level: t("techCategories.backend.technologies.php.level"),
+          description: t("techCategories.backend.technologies.php.description"),
         },
         {
-          name: "Node.js",
-          level: "Advanced",
-          description: "JavaScript runtime for server-side development",
+          name: t("techCategories.backend.technologies.nodejs.name"),
+          level: t("techCategories.backend.technologies.nodejs.level"),
+          description: t(
+            "techCategories.backend.technologies.nodejs.description"
+          ),
         },
         {
-          name: "REST APIs",
-          level: "Expert",
-          description: "Architectural style for web services",
+          name: t("techCategories.backend.technologies.rest.name"),
+          level: t("techCategories.backend.technologies.rest.level"),
+          description: t(
+            "techCategories.backend.technologies.rest.description"
+          ),
         },
         {
-          name: "GraphQL",
-          level: "Expert",
-          description: "Query language for APIs",
+          name: t("techCategories.backend.technologies.graphql.name"),
+          level: t("techCategories.backend.technologies.graphql.level"),
+          description: t(
+            "techCategories.backend.technologies.graphql.description"
+          ),
         },
       ],
     },
     {
       id: "database",
       icon: Database,
-      title: "Database & Storage",
-      description: "Reliable data storage and management solutions",
+      title: t("techCategories.database.title"),
+      description: t("techCategories.database.description"),
       technologies: [
         {
-          name: "MySQL",
-          level: "Expert",
-          description: "Popular relational database management system",
+          name: t("techCategories.database.technologies.mysql.name"),
+          level: t("techCategories.database.technologies.mysql.level"),
+          description: t(
+            "techCategories.database.technologies.mysql.description"
+          ),
         },
         {
-          name: "PostgreSQL",
-          level: "Advanced",
-          description: "Advanced open-source relational database",
+          name: t("techCategories.database.technologies.postgresql.name"),
+          level: t("techCategories.database.technologies.postgresql.level"),
+          description: t(
+            "techCategories.database.technologies.postgresql.description"
+          ),
         },
         {
-          name: "MongoDB",
-          level: "Advanced",
-          description: "NoSQL document database",
+          name: t("techCategories.database.technologies.mongodb.name"),
+          level: t("techCategories.database.technologies.mongodb.level"),
+          description: t(
+            "techCategories.database.technologies.mongodb.description"
+          ),
         },
         {
-          name: "Firebase Firestore",
-          level: "Advanced",
-          description: "NoSQL cloud database",
+          name: t("techCategories.database.technologies.firestore.name"),
+          level: t("techCategories.database.technologies.firestore.level"),
+          description: t(
+            "techCategories.database.technologies.firestore.description"
+          ),
         },
       ],
     },
     {
       id: "devops",
       icon: Settings,
-      title: "DevOps & Deployment",
-      description: "Streamlined development and deployment processes",
+      title: t("techCategories.devops.title"),
+      description: t("techCategories.devops.description"),
       technologies: [
         {
-          name: "Docker",
-          level: "Advanced",
-          description: "Containerization platform",
+          name: t("techCategories.devops.technologies.docker.name"),
+          level: t("techCategories.devops.technologies.docker.level"),
+          description: t(
+            "techCategories.devops.technologies.docker.description"
+          ),
         },
         {
-          name: "AWS",
-          level: "Advanced",
-          description: "Amazon Web Services cloud platform",
-        },
-        { name: "Git", level: "Expert", description: "Version control system" },
-        {
-          name: "GitHub Actions",
-          level: "Advanced",
-          description: "CI/CD platform",
+          name: t("techCategories.devops.technologies.aws.name"),
+          level: t("techCategories.devops.technologies.aws.level"),
+          description: t("techCategories.devops.technologies.aws.description"),
         },
         {
-          name: "Nginx",
-          level: "Advanced",
-          description: "Web server and reverse proxy",
+          name: t("techCategories.devops.technologies.git.name"),
+          level: t("techCategories.devops.technologies.git.level"),
+          description: t("techCategories.devops.technologies.git.description"),
         },
         {
-          name: "Linux",
-          level: "Advanced",
-          description: "Open-source operating system",
+          name: t("techCategories.devops.technologies.github_actions.name"),
+          level: t("techCategories.devops.technologies.github_actions.level"),
+          description: t(
+            "techCategories.devops.technologies.github_actions.description"
+          ),
+        },
+        {
+          name: t("techCategories.devops.technologies.nginx.name"),
+          level: t("techCategories.devops.technologies.nginx.level"),
+          description: t(
+            "techCategories.devops.technologies.nginx.description"
+          ),
+        },
+        {
+          name: t("techCategories.devops.technologies.linux.name"),
+          level: t("techCategories.devops.technologies.linux.level"),
+          description: t(
+            "techCategories.devops.technologies.linux.description"
+          ),
         },
       ],
     },
     {
       id: "design",
       icon: Palette,
-      title: "Design & Prototyping",
-      description: "User-centered design and prototyping tools",
+      title: t("techCategories.design.title"),
+      description: t("techCategories.design.description"),
       technologies: [
         {
-          name: "Figma",
-          level: "Expert",
-          description: "Collaborative design and prototyping tool",
+          name: t("techCategories.design.technologies.figma.name"),
+          level: t("techCategories.design.technologies.figma.level"),
+          description: t(
+            "techCategories.design.technologies.figma.description"
+          ),
         },
         {
-          name: "Adobe XD",
-          level: "Advanced",
-          description: "Design and prototyping software",
+          name: t("techCategories.design.technologies.adobe_xd.name"),
+          level: t("techCategories.design.technologies.adobe_xd.level"),
+          description: t(
+            "techCategories.design.technologies.adobe_xd.description"
+          ),
         },
       ],
     },
@@ -206,27 +252,23 @@ const TechnologiesPage = () => {
   const whyChooseOurTech = [
     {
       icon: Zap,
-      title: "Performance Optimized",
-      description:
-        "Every technology is chosen for maximum performance and scalability",
+      title: t("whyChooseTech.performance.title"),
+      description: t("whyChooseTech.performance.description"),
     },
     {
       icon: Shield,
-      title: "Security First",
-      description:
-        "Built-in security features and best practices for data protection",
+      title: t("whyChooseTech.security.title"),
+      description: t("whyChooseTech.security.description"),
     },
     {
       icon: Layers,
-      title: "Future-Proof",
-      description:
-        "Technologies that evolve and scale with your business needs",
+      title: t("whyChooseTech.future_proof.title"),
+      description: t("whyChooseTech.future_proof.description"),
     },
     {
       icon: GitBranch,
-      title: "Developer Friendly",
-      description:
-        "Tools and frameworks that enhance productivity and code quality",
+      title: t("whyChooseTech.developer_friendly.title"),
+      description: t("whyChooseTech.developer_friendly.description"),
     },
   ];
 
@@ -253,7 +295,7 @@ const TechnologiesPage = () => {
           <div className="container mx-auto text-center">
             <div className="max-w-4xl mx-auto">
               <Badge variant="outline" className="mb-6 px-6 py-2">
-                {t("servicesPage.hero.badge")}
+                {t("technologiesPage.hero.badge")}
               </Badge>
               <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold mb-6 leading-tight">
                 {t("technologiesPage.hero.title")}{" "}

@@ -112,6 +112,53 @@
     "stat3_label": "Čas k MVP",
     "stat3_value": "6-8 týdnů"
   },
+  "processPage": {
+    "hero": {
+      "badge": "Náš vývojový proces",
+      "title": "Jak tvoříme",
+      "titleHighlight": "výjimečné produkty",
+      "subtitle": "Náš proces je navržen tak, aby zajistil hladký průběh od nápadu po úspěšné spuštění. Spolupracujeme s vámi na každém kroku, abychom zajistili, že výsledek předčí vaše očekávání.",
+      "ctaPrimary": "Začít projekt",
+      "ctaSecondary": "Zobrazit technologie"
+    },
+    "overview": {
+      "title": "Náš přístup",
+      "subtitle": "Kombinujeme osvědčené postupy s agilní metodikou, abychom zajistili efektivní a transparentní vývoj",
+      "item1_title": "Zaměření na uživatele",
+      "item1_desc": "Všechny naše návrhy začínají hlubokým porozuměním potřeb koncových uživatelů.",
+      "item2_title": "Agilní metodiky",
+      "item2_desc": "Pravidelné iterace a zpětná vazba zajišťují, že jsme vždy na správné cestě.",
+      "item3_title": "Průhlednost",
+      "item3_desc": "Pravidelné aktualizace a otevřená komunikace jsou základem naší spolupráce.",
+      "item4_title": "Kvalita",
+      "item4_desc": "Důsledné testování a revize kódu zajišťují stabilní a bezpečné aplikace."
+    },
+    "metrics": {
+      "title": "Měřitelné",
+      "titleHighlight": "výsledky",
+      "subtitle": "Konkrétní čísla, která dokládají efektivitu našeho procesu",
+      "delivery": { "label": "Dodání v termínu", "value": "95%" },
+      "satisfaction": { "label": "Spokojenost klientů", "value": "98%" },
+      "retention": { "label": "Návratnost klientů", "value": "85%" },
+      "support": { "label": "Rychlost reakce na podporu", "value": "< 2h" }
+    },
+    "testimonials": {
+      "title": "Co říkají",
+      "titleHighlight": "naši klienti",
+      "subtitle": "Přečtěte si, jak náš proces přináší výsledky"
+    },
+    "faq": {
+      "title": "Často kladené",
+      "titleHighlight": "otázky",
+      "subtitle": "Odpovědi na nejčastější dotazy k našemu vývojovému procesu"
+    },
+    "cta": {
+      "title": "Připraveni začít?",
+      "subtitle": "Pojďme společně přeměnit váš nápad v realitu. Naplánujte si bezplatnou konzultaci s naším týmem ještě dnes.",
+      "ctaPrimary": "Začít projekt",
+      "ctaSecondary": "Kontaktovat nás"
+    }
+  },
   "cta": {
     "title": "Připraveni postavit něco úžasného?",
     "subtitle": "Přeměňme váš nápad v digitální realitu. Získejte bezplatnou technickou konzultaci a odhad projektu.",
@@ -170,6 +217,218 @@
       "title": "Technologie, které",
       "titleHighlight": "ovládáme",
       "subtitle": "Používáme špičkové technologie k tvorbě škálovatelných a udržovatelných aplikací"
+    }
+  },
+  "technologiesPage": {
+    "hero": {
+      "badge": "Náš technologický stack",
+      "title": "Technologie, které",
+      "titleHighlight": "pohánějí inovace",
+      "subtitle": "Využíváme špičkové technologie k tvorbě škálovatelných a udržovatelných aplikací, které podporují obchodní růst a poskytují výjimečné uživatelské zkušenosti.",
+      "ctaPrimary": "Začněte svůj projekt",
+      "ctaSecondary": "Zobrazit náš proces"
+    },
+    "categories": {
+      "title": "Technologická",
+      "titleHighlight": "expertíza",
+      "subtitle": "Komplexní technologický stack pokrývající mobilní aplikace, web, backend, databáze, DevOps a designové nástroje"
+    },
+    "whyChoose": {
+      "title": "Proč náš",
+      "titleHighlight": "technologický stack",
+      "subtitle": "Pečlivě vybrané technologie, které zajišťují výkon, bezpečnost a řešení připravená na budoucnost"
+    },
+    "process": {
+      "title": "Technologická",
+      "titleHighlight": "integrace",
+      "subtitle": "Jak vybíráme a implementujeme nejlepší technologie pro vaše specifické potřeby",
+      "step1_title": "Posouzení",
+      "step1_desc": "Analyzujeme vaše požadavky a vybíráme optimální technologie pro výkon a škálovatelnost",
+      "step2_title": "Implementace",
+      "step2_desc": "Expertní implementace s osvědčenými postupy a moderními vývojovými metodologiemi",
+      "step3_title": "Optimalizace",
+      "step3_desc": "Průběžné monitorování a optimalizace pro zajištění špičkového výkonu a spolehlivosti"
+    }
+  },
+  "techCategories": {
+    "mobile": {
+      "title": "Mobilní vývoj",
+      "description": "Multiplatformní mobilní aplikace s nativním výkonem",
+      "technologies": {
+        "flutter": {
+          "name": "Flutter",
+          "level": "Expert",
+          "description": "Dart-based UI framework pro iOS a Android"
+        },
+        "dart": {
+          "name": "Dart",
+          "level": "Expert",
+          "description": "Programovací jazyk pro vývoj ve Flutteru"
+        },
+        "firebase": {
+          "name": "Firebase",
+          "level": "Pokročilý",
+          "description": "Backend-as-a-Service pro mobilní aplikace"
+        },
+        "sqlite": {
+          "name": "SQLite",
+          "level": "Pokročilý",
+          "description": "Lokální databáze pro offline funkcionality"
+        }
+      }
+    },
+    "frontend": {
+      "title": "Frontend vývoj",
+      "description": "Moderní webové aplikace s responzivním designem",
+      "technologies": {
+        "react": {
+          "name": "React",
+          "level": "Expert",
+          "description": "Komponentový UI framework pro webové aplikace"
+        },
+        "javascript": {
+          "name": "JavaScript",
+          "level": "Expert",
+          "description": "Základní programovací jazyk pro webový vývoj"
+        },
+        "html5": {
+          "name": "HTML5",
+          "level": "Expert",
+          "description": "Moderní značkovací jazyk pro webový obsah"
+        },
+        "tailwind": {
+          "name": "Tailwind CSS",
+          "level": "Expert",
+          "description": "Utility-first CSS framework"
+        }
+      }
+    },
+    "backend": {
+      "title": "Backend vývoj",
+      "description": "Škálovatelné serverové aplikace a API",
+      "technologies": {
+        "laravel": {
+          "name": "Laravel",
+          "level": "Expert",
+          "description": "PHP webový framework pro rychlý vývoj"
+        },
+        "php": {
+          "name": "PHP",
+          "level": "Expert",
+          "description": "Serverový skriptovací jazyk"
+        },
+        "nodejs": {
+          "name": "Node.js",
+          "level": "Pokročilý",
+          "description": "JavaScript runtime pro serverový vývoj"
+        },
+        "rest": {
+          "name": "REST API",
+          "level": "Expert",
+          "description": "Architektonický styl pro webové služby"
+        },
+        "graphql": {
+          "name": "GraphQL",
+          "level": "Expert",
+          "description": "Query jazyk pro API"
+        }
+      }
+    },
+    "database": {
+      "title": "Databáze a úložiště",
+      "description": "Spolehlivá řešení pro ukládání a správu dat",
+      "technologies": {
+        "mysql": {
+          "name": "MySQL",
+          "level": "Expert",
+          "description": "Populární relační databázový systém"
+        },
+        "postgresql": {
+          "name": "PostgreSQL",
+          "level": "Pokročilý",
+          "description": "Pokročilý open-source relační databázový systém"
+        },
+        "mongodb": {
+          "name": "MongoDB",
+          "level": "Pokročilý",
+          "description": "NoSQL dokumentová databáze"
+        },
+        "firestore": {
+          "name": "Firebase Firestore",
+          "level": "Pokročilý",
+          "description": "NoSQL cloudová databáze"
+        }
+      }
+    },
+    "devops": {
+      "title": "DevOps a nasazení",
+      "description": "Zjednodušené vývojové a nasazovací procesy",
+      "technologies": {
+        "docker": {
+          "name": "Docker",
+          "level": "Pokročilý",
+          "description": "Kontejnerizační platforma"
+        },
+        "aws": {
+          "name": "AWS",
+          "level": "Pokročilý",
+          "description": "Amazon Web Services cloudová platforma"
+        },
+        "git": {
+          "name": "Git",
+          "level": "Expert",
+          "description": "Systém správy verzí"
+        },
+        "github_actions": {
+          "name": "GitHub Actions",
+          "level": "Pokročilý",
+          "description": "CI/CD platforma"
+        },
+        "nginx": {
+          "name": "Nginx",
+          "level": "Pokročilý",
+          "description": "Webový server a reverzní proxy"
+        },
+        "linux": {
+          "name": "Linux",
+          "level": "Pokročilý",
+          "description": "Open-source operační systém"
+        }
+      }
+    },
+    "design": {
+      "title": "Design a prototypování",
+      "description": "Uživatelsky zaměřené designové a prototypovací nástroje",
+      "technologies": {
+        "figma": {
+          "name": "Figma",
+          "level": "Expert",
+          "description": "Spolupracující designový a prototypovací nástroj"
+        },
+        "adobe_xd": {
+          "name": "Adobe XD",
+          "level": "Pokročilý",
+          "description": "Designový a prototypovací software"
+        }
+      }
+    }
+  },
+  "whyChooseTech": {
+    "performance": {
+      "title": "Optimalizovaný výkon",
+      "description": "Každá technologie je vybrána pro maximální výkon a škálovatelnost"
+    },
+    "security": {
+      "title": "Bezpečnost na prvním místě",
+      "description": "Vestavěné bezpečnostní funkce a osvědčené postupy pro ochranu dat"
+    },
+    "future_proof": {
+      "title": "Připraveno na budoucnost",
+      "description": "Technologie, které se vyvíjejí a škálují s potřebami vašeho podnikání"
+    },
+    "developer_friendly": {
+      "title": "Přívětivé pro vývojáře",
+      "description": "Nástroje a frameworky, které zvyšují produktivitu a kvalitu kódu"
     }
   }
 }

@@ -435,5 +435,186 @@
       "expansion": "Team Expansion",
       "expansionDesc": "Grew our team and expanded our service offerings to better serve our growing client base."
     }
+  },
+  "techCategories": {
+    "mobile": {
+      "title": "Mobile Development",
+      "description": "Cross-platform mobile applications with native performance",
+      "technologies": {
+        "flutter": {
+          "name": "Flutter",
+          "level": "Expert",
+          "description": "Dart-based UI framework for iOS and Android"
+        },
+        "dart": {
+          "name": "Dart",
+          "level": "Expert",
+          "description": "Programming language for Flutter development"
+        },
+        "firebase": {
+          "name": "Firebase",
+          "level": "Advanced",
+          "description": "Backend-as-a-Service for mobile apps"
+        },
+        "sqlite": {
+          "name": "SQLite",
+          "level": "Advanced",
+          "description": "Local database for offline functionality"
+        }
+      }
+    },
+    "frontend": {
+      "title": "Frontend Development",
+      "description": "Modern web applications with responsive design",
+      "technologies": {
+        "react": {
+          "name": "React",
+          "level": "Expert",
+          "description": "Component-based UI library for web applications"
+        },
+        "javascript": {
+          "name": "JavaScript",
+          "level": "Expert",
+          "description": "Core programming language for web development"
+        },
+        "html5": {
+          "name": "HTML5",
+          "level": "Expert",
+          "description": "Modern markup language for web content"
+        },
+        "tailwind": {
+          "name": "Tailwind CSS",
+          "level": "Expert",
+          "description": "Utility-first CSS framework"
+        }
+      }
+    },
+    "backend": {
+      "title": "Backend Development",
+      "description": "Scalable server-side applications and APIs",
+      "technologies": {
+        "laravel": {
+          "name": "Laravel",
+          "level": "Expert",
+          "description": "PHP web framework for rapid development"
+        },
+        "php": {
+          "name": "PHP",
+          "level": "Expert",
+          "description": "Server-side scripting language"
+        },
+        "nodejs": {
+          "name": "Node.js",
+          "level": "Advanced",
+          "description": "JavaScript runtime for server-side development"
+        },
+        "rest": {
+          "name": "REST APIs",
+          "level": "Expert",
+          "description": "Architectural style for web services"
+        },
+        "graphql": {
+          "name": "GraphQL",
+          "level": "Expert",
+          "description": "Query language for APIs"
+        }
+      }
+    },
+    "database": {
+      "title": "Database & Storage",
+      "description": "Reliable data storage and management solutions",
+      "technologies": {
+        "mysql": {
+          "name": "MySQL",
+          "level": "Expert",
+          "description": "Popular relational database management system"
+        },
+        "postgresql": {
+          "name": "PostgreSQL",
+          "level": "Advanced",
+          "description": "Advanced open-source relational database"
+        },
+        "mongodb": {
+          "name": "MongoDB",
+          "level": "Advanced",
+          "description": "NoSQL document database"
+        },
+        "firestore": {
+          "name": "Firebase Firestore",
+          "level": "Advanced",
+          "description": "NoSQL cloud database"
+        }
+      }
+    },
+    "devops": {
+      "title": "DevOps & Deployment",
+      "description": "Streamlined development and deployment processes",
+      "technologies": {
+        "docker": {
+          "name": "Docker",
+          "level": "Advanced",
+          "description": "Containerization platform"
+        },
+        "aws": {
+          "name": "AWS",
+          "level": "Advanced",
+          "description": "Amazon Web Services cloud platform"
+        },
+        "git": {
+          "name": "Git",
+          "level": "Expert",
+          "description": "Version control system"
+        },
+        "github_actions": {
+          "name": "GitHub Actions",
+          "level": "Advanced",
+          "description": "CI/CD platform"
+        },
+        "nginx": {
+          "name": "Nginx",
+          "level": "Advanced",
+          "description": "Web server and reverse proxy"
+        },
+        "linux": {
+          "name": "Linux",
+          "level": "Advanced",
+          "description": "Open-source operating system"
+        }
+      }
+    },
+    "design": {
+      "title": "Design & Prototyping",
+      "description": "User-centered design and prototyping tools",
+      "technologies": {
+        "figma": {
+          "name": "Figma",
+          "level": "Expert",
+          "description": "Collaborative design and prototyping tool"
+        },
+        "adobe_xd": {
+          "name": "Adobe XD",
+          "level": "Advanced",
+          "description": "Design and prototyping software"
+        }
+      }
+    }
+  },
+  "whyChooseTech": {
+    "performance": {
+      "title": "Performance Optimized",
+      "description": "Every technology is chosen for maximum performance and scalability"
+    },
+    "security": {
+      "title": "Security First",
+      "description": "Built-in security features and best practices for data protection"
+    },
+    "future_proof": {
+      "title": "Future-Proof",
+      "description": "Technologies that evolve and scale with your business needs"
+    },
+    "developer_friendly": {
+      "title": "Developer Friendly",
+      "description": "Tools and frameworks that enhance productivity and code quality"
+    }
   }
 }

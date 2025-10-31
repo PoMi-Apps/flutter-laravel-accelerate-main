@@ -13,7 +13,6 @@ import Technologies from "./pages/Technologies";
 import Process from "./pages/Process";
 import About from "./pages/About";
 import NotFound from "./pages/NotFound";
-import CustomCursor from "./components/CustomCursor";
 
 const queryClient = new QueryClient();
 
@@ -42,7 +41,6 @@ const App = () => (
           <Toaster />
           <Sonner />
           <BrowserRouter>
-            <CustomCursor />
             <AnimatedRoutes />
           </BrowserRouter>
         </TooltipProvider>
